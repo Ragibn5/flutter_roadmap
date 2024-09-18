@@ -44,7 +44,7 @@
 #### 2. Setup development environment
 
 - **Setup Android Studio**
-    - If you are running a MackBook, you should have XCode installed.
+    - If you are running Mac, you should have XCode installed.
     - Download and install android studio with default configuration.
     - After installation, install the following
         - FVM
@@ -67,9 +67,8 @@
         - It may take a long time if ypu are running `fvm use <version>` on a version that is not
           available locally. To see the locally available versions, run `fvm list`.
         - Afterwards, go to Android studio Settings >> Languages & Frameworks >> Flutter, and set
-          the "Flutter sdk path" to *<FVM-Installation-Path>/versions/<Version>*. For example, if we
-          followed the previous guide, the path will be */Users/ragib/fvm/versions/3.16.5*. This
-          will vary on your computer.
+          the "Flutter sdk path" to `<FVM-Installation-Path>/versions/<Version>`. For example, if we
+          followed the previous guide, the path will be `/Users/ragib/fvm/versions/3.16.5`.
     - Update the XCode/related components if asked.
     - Now you have a proper setup for flutter development. You may want to restart the IDE after
       this just to make sure everything is working.
